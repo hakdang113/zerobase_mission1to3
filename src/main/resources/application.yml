@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:mariadb://192.168.219.100:3306/mission1to3db
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: mission1to3user
+    password: zerobase
+    
+
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+      
+    show-sql: true
+    
+  jwt:
+  	secret: 
